@@ -185,7 +185,7 @@ var TileLayerWMS = {
     crs: {
       default: null
     },
-    upperCase: {
+    uppercase: {
       type: Boolean,
       default: false
     }
@@ -198,7 +198,7 @@ var TileLayerWMS = {
       transparent: this.transparent,
       version: this.version,
       crs: this.crs,
-      upperCase: this.upperCase});
+      uppercase: this.uppercase});
   }
 };
 
